@@ -2,6 +2,14 @@
 
 A machine learning system to detect fraudulent credit card transactions, addressing severe class imbalance using SMOTE, with model explainability via SHAP and a live interactive demo built with Streamlit.
 
+## 🚀 Live Demo
+
+**Try it here:** [credit-card-fraud-detection-vywwwheq22vip2w9wp2mhs.streamlit.app](https://credit-card-fraud-detection-vywwwheq22vip2w9wp2mhs.streamlit.app/)
+
+Upload a CSV of transactions and the app returns:
+- Fraud prediction (0/1) and probability score per transaction
+- SHAP-based explanation of why a transaction was flagged
+  
 ## 🎯 Problem
 
 Credit card fraud detection is a classic imbalanced classification problem. In this dataset of **284,807 transactions**, only **492 (0.17%)** are fraudulent — meaning a naive model predicting "not fraud" every time would score 99.8% accuracy while catching zero fraud. This project focuses on building a model that actually catches fraud while minimizing false alarms, and explaining *why* it flags what it flags.
